@@ -1,5 +1,11 @@
+import MovieHero from "../components/MovieHero/MovieHero.component";
+
 const Movie = () => {
-    return <>Hi</>;
-  };
-  
-  export default Movie;
+  return (
+    <>
+      <MovieHero />
+    </>
+  );
+};
+
+export default Movie;
